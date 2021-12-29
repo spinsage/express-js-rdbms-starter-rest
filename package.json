@@ -1,0 +1,41 @@
+{
+  "name": "express-js-rdbms-starter-rest",
+  "version": "1.0.0",
+  "description": "Boilerplate project for bootstrapping the development of a Rest API application with NodeJS, Express, and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-dev": "nodemon",
+    "lint": "eslint index.js src/**"
+  },
+  "keywords": [
+    "express",
+    "boilerplate",
+    "mysql",
+    "rest"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinsage/express-js-rdbms-starter-rest.git"
+  },
+  "author": "spinsage",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/spinsage/express-js-rdbms-starter-rest/issues"
+  },
+  "homepage": "https://github.com/spinsage/express-js-rdbms-starter-rest#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "nodemon": "^2.0.15"
+  }
+}
