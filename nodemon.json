@@ -1,9 +1,9 @@
 {
     "watch": [
         "src",
-        "index.js"
+        "app.js"
     ],
-    "exec": "node index.js",
+    "exec": "node app.js",
     "env": {
         "NODE_ENV": "development"
     }
